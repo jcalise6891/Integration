@@ -3,12 +3,26 @@ body,html{
     width: auto;
 }
 
+.BG{
+
+    background-image: url("../img/BG1.jpg");
+
+    height: 1440px;
+    width:auto;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
 
 .container text{
     text-align: center;
 }
 
-.container
+#Slide1.container
 {
     display: flex;
     justify-content: center;
@@ -17,21 +31,24 @@ body,html{
     width:1920px;
 }
 
+#ContentS2{
 
-#Slide1{
-    background-image: url("../img/BG1.jpg");
+    margin-top: 25%;
+}
 
-    height: 100%;
-    width:auto;
+#Slide2 h1{
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family:'Caladea',serif;
+    font-weight: bold;
+}
+
+.pave{
+
+    margin-top: 40px;
 }
 
 #Statue{
     height: 100%;
-    padding-bottom: 0px;
 }
 
 .RedTitle{
@@ -39,6 +56,16 @@ body,html{
     color: red;
 }
 
-#Slide1 h1,p{
+.RedUnder
+{
+    color:red;
+    text-decoration: underline;
+    text-decoration-color: red;
+
+    
+}
+
+
+#Slide1 h1, #Slide p{
     text-align: center;
 }
