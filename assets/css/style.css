@@ -31,8 +31,9 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1080px;
-    width:1920px;
+    height:100vh;
+
+    
 }
 
 #Slide1 h1, #Slide p{
@@ -106,6 +107,12 @@ body,html{
 
 #Slide3 h3, #Slide3 p {
     text-align: right;
+    font-family: "Aileron";
+    
+}
+
+#Slide3 p{
+    margin-bottom: 30px;
 }
 
 #Slide3 h3{
