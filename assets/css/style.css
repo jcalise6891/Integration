@@ -4,6 +4,20 @@ body,html{
 }
 
 
+.container text{
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+    width:1920px;
+}
+
+
 #Slide1{
     background-image: url("../img/BG1.jpg");
 
@@ -18,17 +32,13 @@ body,html{
 #Statue{
     height: 100%;
     padding-bottom: 0px;
-
 }
 
+.RedTitle{
+    
+    color: red;
+}
 
-.container text{
+#Slide1 h1,p{
     text-align: center;
-}
-
-.container
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
