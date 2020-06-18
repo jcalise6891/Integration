@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Aileron";
+    src: url(../font/Aileron-Regular-webfont.woff) format("woff");
+}
+
+
 body,html{
     height:100%;
     width: auto;
@@ -10,13 +16,11 @@ body,html{
     height: 1440px;
     width:auto;
 
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 
-
 }
-
 
 .container text{
     text-align: center;
@@ -29,6 +33,10 @@ body,html{
     align-items: center;
     height: 1080px;
     width:1920px;
+}
+
+#Slide1 h1, #Slide p{
+    text-align: center;
 }
 
 #ContentS2{
@@ -47,9 +55,10 @@ body,html{
     margin-top: 40px;
 }
 
-#Statue{
-    height: 100%;
-}
+ #Statue{
+    padding-top: 9px;
+
+} 
 
 .RedTitle{
     
@@ -60,12 +69,17 @@ body,html{
 {
     color:red;
     text-decoration: underline;
-    text-decoration-color: red;
-
-    
+    text-decoration-color: red;   
 }
 
+#Slide2 h6, #Slide2 p{
+  font-family: "Aileron";
+}
 
-#Slide1 h1, #Slide p{
-    text-align: center;
+#Slide2 h6{
+    color:red;
+}
+
+#Slide2 .pave p{
+    color:#474747;
 }
