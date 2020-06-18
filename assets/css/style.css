@@ -13,7 +13,7 @@ body,html{
 
     background-image: url("../img/BG1.jpg");
 
-    height: 1440px;
+    height: 100vh;
     width:auto;
 
     background-position: bottom;
@@ -41,7 +41,13 @@ body,html{
 
 #ContentS2{
 
-    margin-top: 25%;
+    margin-top: 20%;
+}
+
+#ContentS3{
+
+    padding-top: 20%;
+    padding-bottom: 5%;
 }
 
 #Slide2 h1{
@@ -57,6 +63,7 @@ body,html{
 
  #Statue{
     padding-top: 9px;
+    margin-bottom: 0px;
 
 } 
 
@@ -81,5 +88,30 @@ body,html{
 }
 
 #Slide2 .pave p{
-    color:#474747;
+    color:#666666;
+}
+
+.container-fluid{
+    background-color:#d63c37;
+}
+
+#Slide3 h1{
+    text-align: center;
+    font-family: 'Caladea',serif;
+}
+
+#Slide3 h1 span{
+    text-decoration: underline;
+}
+
+#Slide3 h3, #Slide3 p {
+    text-align: right;
+}
+
+#Slide3 h3{
+    color: white;
+}
+
+#Slide3 h3 span{
+    font-weight: bold;
 }
