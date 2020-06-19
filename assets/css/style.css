@@ -97,7 +97,7 @@ body,html{
 }
 
 #Slide3 h1{
-    text-align: center;
+    text-align: right;
     font-family: 'Caladea',serif;
 }
 
@@ -121,8 +121,4 @@ body,html{
 
 #Slide3 h3 span{
     font-weight: bold;
-}
-
-#gear{
-    /* margin-top: 210%; */
 }
