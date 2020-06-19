@@ -9,6 +9,12 @@ body,html{
     width: auto;
 }
 
+.menu{
+    position:fixed;
+    right:2vh;
+    top:5%;
+}
+
 .BG{
 
     background-image: url("../img/BG1.jpg");
