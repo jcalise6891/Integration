@@ -9,10 +9,22 @@ body,html{
     width: auto;
 }
 
-.menu{
+#hbMenu{
     position:fixed;
     right:2vh;
     top:5%;
+}
+
+#monMenu{
+    position: fixed;
+    display:none;
+    right:2vh;
+    top:10%;
+    
+}
+
+.menu ul{
+    list-style:none;
 }
 
 .BG{
