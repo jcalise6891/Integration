@@ -20,15 +20,17 @@ body,html{
     display:none;
     right:2vh;
     top:10%;
-    
 }
 
 .menu ul{
     list-style:none;
 }
 
-.BG{
+#monMenu li{
+    margin-bottom: 10px;
+}
 
+.BG{
     background-image: url("../img/BG1.jpg");
 
     height: 100vh;
@@ -37,21 +39,17 @@ body,html{
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .container text{
     text-align: center;
 }
 
-#Slide1.container
-{
+#Slide1.container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
-
-    
+    height:100vh;   
 }
 
 #Slide1 h1, #Slide p{
@@ -59,40 +57,33 @@ body,html{
 }
 
 #ContentS2{
-
-    margin-top: 20%;
+   margin-top: 20%;
 }
 
 #ContentS3{
-
     padding-top: 20%;
     padding-bottom: 5%;
 }
 
 #Slide2 h1{
-
     font-family:'Caladea',serif;
     font-weight: bold;
 }
 
 .pave{
-
     margin-top: 40px;
 }
 
  #Statue{
     padding-top: 9px;
     margin-bottom: 0px;
-
 } 
 
-.RedTitle{
-    
+.RedTitle{ 
     color: red;
 }
 
-.RedUnder
-{
+.RedUnder{
     color:red;
     text-decoration: underline;
     text-decoration-color: red;   
@@ -125,8 +116,7 @@ body,html{
 
 #Slide3 h3, #Slide3 p {
     text-align: right;
-    font-family: "Aileron";
-    
+    font-family: "Aileron"; 
 }
 
 #Slide3 p{
